@@ -1,0 +1,12 @@
+package src;
+
+public class Prime50
+{
+    public static void main {
+    
+    }
+    
+    public static isPrime(int x){
+        
+    }
+}

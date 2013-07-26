@@ -1,0 +1,10 @@
+package src;
+
+
+public class DrawingStars {
+	public static void printStars(int num){
+		for(int i = 1; i <= num; i++){
+			System.out.print("*");
+		}
+	}
+}

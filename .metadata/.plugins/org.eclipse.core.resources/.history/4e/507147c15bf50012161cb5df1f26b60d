@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class NonNegativeIntergers
+{
+	public static void main (String [] args){
+		Scanner keys = new Scanner(System.in);
+		
+		int input = keys.nextInt();
+		System.out.print("Enter a number (a negative ends the input):");
+		
+		
+	}
+}

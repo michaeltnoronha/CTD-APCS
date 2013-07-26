@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class NonNegativeIntergers
+{
+	private static Scanner keys;
+
+	public static void main (String [] args){
+		keys = new Scanner(System.in);
+		
+		int input = keys.nextInt();
+		
+		System.out.println(input);
+		
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class SimpleCircle {
+	public static void main (String [] args){
+		Scanner keys = new Scanner(System.in);
+		
+		int radius;
+		
+		System.out.print("Enter a radius: ");
+		radius = keys.nextInt();
+		
+		System.out.print("Do you want to (1) Calculate Area or (2) Calculate Circumference ");
+		
+		
+	}
+}
