@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CirclePanel()
+comment1.params=
+comment1.target=Circle\ getCircle()
+comment2.params=newCircle
+comment2.target=void\ setmyCircle(Circle)
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+numComments=4

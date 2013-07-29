@@ -1,17 +1,17 @@
 #BlueJ package file
-package.editor.height=615
-package.editor.width=1184
-package.editor.x=16
-package.editor.y=16
+package.editor.height=586
+package.editor.width=1244
+package.editor.x=-4
+package.editor.y=-4
 package.numDependencies=0
 package.numTargets=7
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
-target1.editor.height=776
-target1.editor.width=1312
-target1.editor.x=58
-target1.editor.y=-4
+target1.editor.height=737
+target1.editor.width=1304
+target1.editor.x=62
+target1.editor.y=0
 target1.height=50
 target1.name=RandomSubtraction
 target1.naviview.expanded=true

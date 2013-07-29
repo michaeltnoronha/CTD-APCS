@@ -1,4 +1,4 @@
-import java.util.*;
+475import java.util.*;
 
 public class IsosTriangle {
     public static void main (String [] args){
