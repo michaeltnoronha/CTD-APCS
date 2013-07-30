@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
-numComments=1
+comment1.params=userinput
+comment1.target=int\ getTriangularNumber(int)
+comment2.params=
+comment2.target=int\ getInput()
+comment3.params=input\ nth_triangular_number
+comment3.target=void\ print(int,\ int)
+numComments=4

@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class binaryNumbers
-{
+public class DecToBin {
 
     public static void main(String[] args) {
         Scanner keys = new Scanner(System.in);
@@ -19,9 +18,9 @@ public class binaryNumbers
             
             continuequery = keys.next();
             
-            if(continuequery.charAt(0) == 'n' | continuequery.charAt(0) == 'N'){
-                System.exit(0);
-            }
+            //if(continuequery.charAt(0) == 'n' | continuequery.charAt(0) == 'N'){
+            //    System.exit(0);
+            //}
         }while(continuequery.charAt(0) == 'Y' | continuequery.charAt(0) == 'y');
         
     }
