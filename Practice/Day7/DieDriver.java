@@ -5,7 +5,7 @@ public class DieDriver
         System.out.println("The value of face is " + first.getFace());
         for(int i = 1; i <= 25; i++){
             first.roll(); //randomly changes the value of face
-            System.out.println("The value of face is " + first.getFace());
+            System.out.println("The value of face is " + first.roll());
         }
     }
 }
