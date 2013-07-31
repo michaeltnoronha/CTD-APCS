@@ -83,13 +83,14 @@ public class Fraction
     
     // 3/4 or 4/3 or 0/1 or 0
     public void print(){
-        System.out.printf("%d / %d",numerator, denominator);
+        System.out.printf("%d/%d",numerator, denominator);
     }
     
     //returns a string
     //  "3/4" or "1/2" or "6/5"
     public String toString(){
         String toString = numerator + "/" + denominator;
+        //System.out.print(this);
         return toString;
     }
     

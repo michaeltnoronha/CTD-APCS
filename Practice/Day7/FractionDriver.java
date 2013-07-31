@@ -21,11 +21,11 @@ public class FractionDriver
         //System.out.println(f.getDenominator());
         //System.out.println(result2.getDenominator());
         
-        System.out.println(f);
-        //f.print();
-        Fraction product = f.multiply(g);
-        Fraction difference = f.subtract(g);
-        System.out.println(product);
-        System.out.println(difference);     
+        System.out.println(f);  //System.out.println(f);
+        f.print();
+        //Fraction product = f.multiply(g);
+        //Fraction difference = f.subtract(g);
+        //System.out.println(product);
+        //System.out.println(difference);     
     }
 }
