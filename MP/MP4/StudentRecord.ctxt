@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StudentRecord()
+comment1.params=
+comment1.target=double\ getQuizGrade()
+comment10.params=
+comment10.target=java.lang.String\ finalLetter()
+comment2.params=
+comment2.target=double\ getMidtermGrade()
+comment3.params=
+comment3.target=double\ getFinalsGrade()
+comment4.params=
+comment4.target=double\ getOverallNumeric()
+comment5.params=
+comment5.target=java.lang.String\ getFinalLetter()
+comment6.params=midtermGrade
+comment6.target=void\ setMidtermGrade(double)
+comment7.params=finalsGrade
+comment7.target=void\ setFinalsGrade(double)
+comment8.params=quiz1\ quiz2
+comment8.target=void\ setQuizGrade(double,\ double)
+comment9.params=
+comment9.target=double\ overallNumeric()
+numComments=11

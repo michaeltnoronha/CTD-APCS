@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rectangle()
+comment1.params=row\ col
+comment1.target=Rectangle(int,\ int)
+comment2.params=
+comment2.target=void\ display()
+comment3.params=
+comment3.target=int\ area()
+comment4.params=
+comment4.target=int\ perim()
+comment5.params=row
+comment5.target=void\ setRow(int)
+comment6.params=col
+comment6.target=void\ setCol(int)
+comment7.params=
+comment7.target=int\ getRow()
+comment8.params=
+comment8.target=int\ getCol()
+numComments=9
