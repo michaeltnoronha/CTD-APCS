@@ -1,2 +1,8 @@
 #BlueJ class context
-numComments=0
+comment0.params=
+comment0.target=Histogram()
+comment1.params=
+comment1.target=int\ getInterval()
+comment2.params=x
+comment2.target=void\ add(int)
+numComments=3

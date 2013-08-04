@@ -7,6 +7,22 @@ public class Histogram
     
     public Histogram(){
         interval = 10;
-        new values [99];
+        values = new int [100];
+    }
+    
+    public int getInterval(){
+        return interval;
+    }
+    
+    public void add(int x){
+        values[x] += 1;
+    }
+    
+    public void changeInterval(int newInterval){
+        interval = newInterval;
+    }
+    
+    public int countValues(int start, int end){
+        
     }
 }
