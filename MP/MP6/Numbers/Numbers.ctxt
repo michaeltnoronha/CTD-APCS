@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Numbers()
+comment1.params=arrayLength
+comment1.target=Numbers(int)
+comment2.params=
+comment2.target=void\ print()
+comment3.params=z
+comment3.target=boolean\ hasMultipleOf(int)
+comment4.params=
+comment4.target=int\ countOddNumbers()
+comment5.params=maxIndex
+comment5.target=int\ indexSum(int)
+comment6.params=arrayIndex
+comment6.target=int\ get(int)
+numComments=7

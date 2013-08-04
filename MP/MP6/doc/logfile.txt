@@ -1,0 +1,48 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.7.0_25\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\Michael Noronha\Dropbox\session2_ctd\GridWorldCode\gridworld.jar;C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6
+-d
+C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\Numbers\NumbersDriver.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\Numbers\NumbersDriver.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_25
+Building tree for all the packages and classes...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\Numbers\NumbersDriver.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\Numbers\package-frame.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\Numbers\package-summary.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\constant-values.html...
+C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\Numbers\Numbers.java:10: error: illegal start of type
+}
+^
+C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\Numbers\Numbers.java:10: error: reached end of file while parsing
+}
+ ^
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\allclasses-frame.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\allclasses-noframe.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\index.html...
+Generating C:\Users\Michael Noronha\Dropbox\session2_ctd\MP\MP6\doc\stylesheet.css...
+2 errors
