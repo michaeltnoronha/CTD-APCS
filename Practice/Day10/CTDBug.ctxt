@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CTDBug()
+comment1.params=c
+comment1.target=CTDBug(java.awt.Color)
+comment2.params=
+comment2.target=void\ turn()
+comment3.params=
+comment3.target=boolean\ canMove()
+comment4.params=
+comment4.target=void\ move()
+comment5.params=
+comment5.target=void\ act()
+numComments=6
