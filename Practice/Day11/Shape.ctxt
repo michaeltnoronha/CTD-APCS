@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Shape()
+comment1.params=n
+comment1.target=Shape(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=newName
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=double\ area()
+comment5.params=
+comment5.target=void\ draw()
+numComments=6

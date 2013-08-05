@@ -48,6 +48,6 @@ public class Circle {
     }
     
     public void draw(Graphics g){
-        g.fillOval(100,100,50,50);
+        g.fillOval(100,100, (int)radius, (int)radius);
     }
 }   

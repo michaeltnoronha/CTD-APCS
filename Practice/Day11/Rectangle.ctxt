@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rectangle()
+comment1.params=l\ w
+comment1.target=Rectangle(int,\ int)
+comment2.params=
+comment2.target=void\ draw()
+comment3.params=
+comment3.target=double\ area()
+numComments=4
