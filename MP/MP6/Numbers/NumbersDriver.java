@@ -13,7 +13,7 @@ public class NumbersDriver
 
         userArray = new Numbers(length);
 
-        System.out.print("Here is the array\n");
+        System.out.println("\nHere is your array:");
         userArray.print();
 
         System.out.print("\nEnter a number to check for multiples: ");

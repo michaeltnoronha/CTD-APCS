@@ -3,26 +3,26 @@ package Numbers;
 public class Numbers
 {
     private int [] array;
-    private int arrayLength = (int)(Math.random() * 100 + 1);
+    //private int arrayLength = (int)(Math.random() * 100 + 1);
 
     public Numbers(){
         int arrayLength = (int)(Math.random() * 100 + 1);
         array = new int [arrayLength];
 
-        for(int i = 0; i < arrayLength; i++){
+        for(int i = 0; i < array.length; i++){
             array[i] = (int)(Math.random() * 100 + 1);
         }
     }
 
     public Numbers(int arrayLength){
         array = new int [arrayLength];
-        for(int i = 0; i < arrayLength; i++){
+        for(int i = 0; i < array.length; i++){
             array[i] = (int)(Math.random() * 100 + 1);
         }
     }
 
     public void print(){
-        for(int i = 0; i < arrayLength - 1; i++){
+        for(int i = 0; i < array.length; i++){
             if(i % 10 == 9){
                 System.out.printf("%d \n", array[i]);
             }
@@ -34,7 +34,7 @@ public class Numbers
 
     public boolean hasMultipleOf(int z){
         boolean multipleOf = false;
-        for(int i = 0; i < arrayLength; i++){
+        for(int i = 0; i < array.length; i++){
             if(array[i] % z == 0){
                 multipleOf =  true;
             }
@@ -47,9 +47,9 @@ public class Numbers
 
     public int countOddNumbers(){
         int oddCount = 0;
-        for(int i = 0; i < arrayLength; i++){
+        for(int i = 0; i < array.length; i++){
             if(array[i] % 2 == 1){
-                oddCount += 1;
+                oddCount++;
             }
         }
         return oddCount;
@@ -57,8 +57,8 @@ public class Numbers
 
     public int indexSum(int maxIndex){
         int sum = 0;
-        if(maxIndex <= arrayLength){
-            for(int i = 0; i < (maxIndex + 1); i++){
+        if(maxIndex <= array.length){
+            for(int i = 0; i < (maxIndex); i++){
                 sum = sum + array[i];
             }
         }
@@ -70,7 +70,7 @@ public class Numbers
 
     public int get(int arrayIndex){
         int arrayItem = 0;
-        if(arrayIndex <= arrayLength){
+        if(arrayIndex <= array.length){
             arrayItem =  array[arrayIndex];
         }
         else{

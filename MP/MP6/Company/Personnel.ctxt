@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Personnel()
+comment1.params=e
+comment1.target=void\ addEmployee(Employee)
+comment2.params=
+comment2.target=java.util.ArrayList\ getPersonnel()
+comment3.params=
+comment3.target=void\ printAll()
+comment4.params=index
+comment4.target=void\ removeEmployee(int)
+comment5.params=index
+comment5.target=Employee\ getEmployee(int)
+comment6.params=
+comment6.target=void\ printCompany()
+numComments=7
