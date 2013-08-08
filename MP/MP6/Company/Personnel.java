@@ -23,8 +23,15 @@ public class Personnel
     }
 
     public void printAll(){
-        for(int i = 0; i < arrayList.size(); i++){
-            System.out.println(arrayList.get(i));
+        System.out.println("Here are the companies employees:\n");
+        for(Employee e: arrayList){
+            System.out.println("Name: " + e.getFirstName() + " " + e.getLastName());
+            System.out.println("Department: " + e.getDeptName(e.getDeptCode()));
+            System.out.println("Wages: " + e.getWage());
+            System.out.println("Hours: " + e.getHours());
+            double pay = e.getHours() * e.getWage();
+            System.out.println("Pay: " + pay);
+            System.out.println();
         }
     }
 
@@ -62,10 +69,12 @@ public class Personnel
         System.out.print("Dept - ");
         if(code.equals("MK"))
             System.out.println("Marketing");
-        else if(code.equals("IT"))
+        else if(code.equals("IT")){
             System.out.println("Information Technology");
-        else if(code.equals("PY"))
+        }
+        else if(code.equals("PY")){
             System.out.println("Payroll");
+        }
         System.out.println("        Total Employees: " + employees);
         System.out.println("        Minimum Wage: " + arrayList.get(leastPayed).getWage());
         System.out.println("        Maximum Wage: " + arrayList.get(mostPayed).getWage());
