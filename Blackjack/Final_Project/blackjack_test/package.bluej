@@ -1,0 +1,25 @@
+#BlueJ package file
+package.editor.height=585
+package.editor.width=1244
+package.editor.x=703
+package.editor.y=20
+package.numDependencies=0
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+readme.editor.height=700
+readme.editor.width=900
+readme.editor.x=4
+readme.editor.y=4
+target1.height=62
+target1.name=gui
+target1.type=PackageTarget
+target1.width=80
+target1.x=320
+target1.y=200
+target2.height=62
+target2.name=base
+target2.type=PackageTarget
+target2.width=80
+target2.x=420
+target2.y=210

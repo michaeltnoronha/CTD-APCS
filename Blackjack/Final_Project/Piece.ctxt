@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ x\ y\ W\ H\ c
+comment0.target=Piece(java.lang.String,\ int,\ int,\ int,\ int,\ java.awt.Color)
+comment1.params=
+comment1.target=void\ king()
+comment2.params=
+comment2.target=boolean\ getIsKing()
+numComments=3

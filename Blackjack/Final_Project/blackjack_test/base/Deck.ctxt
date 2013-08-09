@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Deck()
+comment0.text=\r\n\ \r\n
+comment1.params=
+comment1.target=void\ shuffle()
+comment1.text=\r\n\ Shuffles\ the\ deck\r\n
+comment2.params=
+comment2.target=Card\ draw()
+comment2.text=\r\n\ Draws\ a\ card\ from\ the\ deck\r\n\ @return\ Card\ card\ from\ the\ top\ of\ the\ Deck\ Shoe\r\n
+comment3.params=
+comment3.target=int\ getCount()
+comment3.text=\r\n\ Gets\ the\ current\ card\ count\ (AI\ only)\r\n\ @return\ Integer\ representing\ the\ current\ card\ count\r\n
+comment4.params=c
+comment4.target=void\ addToBottom(Card)
+comment4.text=\r\n\ Adds\ a\ card\ to\ the\ bottom\ of\ the\ deck\r\n\ @param\ c\ Card\ to\ be\ added\ the\ bottom\ of\ the\ deck\r\n
+numComments=5

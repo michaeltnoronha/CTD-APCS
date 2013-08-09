@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=card1\ card2
+comment0.target=Hand(Card,\ Card)
+comment0.text=\r\n\ Creates\ a\ hand\ with\ Card\ c1\ and\ Card\ c2\r\n\ @param\ card1\ The\ first\ Card\ to\ be\ added\ to\ the\ Hand\r\n\ @param\ card2\ The\ second\ Card\ to\ be\ added\ to\ the\ Hand\r\n
+comment1.params=toAdd
+comment1.target=void\ addCard(Card)
+comment1.text=\r\n\ Adds\ a\ card\ to\ the\ hand\r\n\ @param\ toAdd\ The\ Card\ to\ be\ added\ to\ the\ Hand\r\n
+comment2.params=index
+comment2.target=Card\ get(int)
+comment2.text=\r\n\ Gets\ the\ card\ at\ index\ position\ of\ the\ hand\r\n\ @param\ index\ Position\ of\ the\ card\ to\ be\ retrieved\r\n\ @return\ Card\ at\ position\ index\r\n
+comment3.params=
+comment3.target=int\ length()
+comment3.text=\r\n\ Gets\ the\ number\ of\ cards\ in\ the\ Hand\r\n\ @return\ Integer\ value\ of\ the\ cards\ in\ the\ hand\r\n
+comment4.params=
+comment4.target=int\ getBestValue()
+comment4.text=\r\n\ Gets\ the\ best(highest)\ value\ of\ the\ hand\r\n\ @return\ Integer\ value\ of\ the\ hand\r\n
+comment5.params=
+comment5.target=boolean\ isBusted()
+comment5.text=\r\n\ Tells\ whether\ the\ hand\ has\ busted\r\n\ @return\ boolean\ representing\ whether\ the\ Hand\ has\ busted\r\n
+comment6.params=
+comment6.target=boolean\ isBlackJack()
+comment6.text=\r\n\ Hand\ is\ Blackjack\ if\ and\ only\ if\ it\ has\ 2\ cards\:\ an\ Ace\ and\ a\ 10,\ Jack,\r\n\ Queen,\ or\ King\r\n\ @return\ boolean\ representing\ whether\ the\ Hand\ is\ BlackJack\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ clearHand()
+comment7.text=\r\n\ Removes\ the\ cards\ from\ the\ hand\ and\ returns\ them\ in\ an\ ArrayList\r\n\ @return\ ArrayList\ containing\ the\ removed\ cards\r\n
+numComments=8

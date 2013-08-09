@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=minimumBet\ cardImages
+comment0.target=DealerPanel(int,\ java.awt.Image)
+comment0.text=\r\n\ Initializes\ a\ JPanel\ name\ "dealer"\ displaying\ the\ minimum\ wager.\ Card\ \r\n\ graphics\ are\ dealt\ with\ automatically\ by\ paintComponent(g).\r\n\ @param\ minimumBet\ smallest\ money\ wager\ allowed\r\n\ @param\ cardImages\ card\ image\ map\ file\r\n
+comment1.params=
+comment1.target=blackjack_test.base.Hand\ getHand()
+comment1.text=\r\n\ Returns\ the\ hand\ of\ the\ dealer,\ probably\ for\ comaparison\ purposes.\r\n\ @return\ dealers\ hand\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ clearHand()
+comment2.text=\r\n\ Clears\ the\ hand\ and\ returns\ it\ in\ an\ ArrayList\r\n\ @return\ ArrayList\ containing\ the\ cleared\ hand\r\n
+comment3.params=c1\ c2
+comment3.target=void\ startHand(blackjack_test.base.Card,\ blackjack_test.base.Card)
+comment3.text=\r\n\ Creates\ a\ hand\ with\ Card\ c1\ and\ Card\ c2\r\n\ @param\ c1\ First\ card\ to\ be\ added\r\n\ @param\ c2\ Second\ card\ to\ be\ added\r\n
+comment4.params=
+comment4.target=void\ flipSecond()
+comment4.text=\r\n\ Flips\ the\ second\ card\ in\ the\ hand\r\n
+comment5.params=
+comment5.target=boolean\ checkAce()
+comment5.text=\r\n\ Checks\ if\ there's\ an\ ace\ in\ the\ dealer's\ hand\r\n\ @return\ Boolean\ representing\ whether\ an\ ace\ is\ present\r\n
+comment6.params=g
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment6.text=\r\n\ Paints\ the\ cards\ stacked\ top-down\ in\ addition\ to\ the\ rest\ of\ the\ \r\n\ components.\ The\ cards\ are\ arranged\ so\ the\ user\ can\ still\ see\ all\ of\r\n\ the\ cards'\ values.\r\n
+comment7.params=g\ card\ x\ y
+comment7.target=void\ drawCard(java.awt.Graphics,\ blackjack_test.base.Card,\ int,\ int)
+comment7.text=\r\n\ Paints\ a\ card\ image\ onto\ (x,y)\ of\ the\ container.\ A\ facedown\ card\ will\r\n\ be\ drawn\ accordingly.\r\n\ @param\ g\ the\ graphics\ context\r\n\ @param\ card\ the\ card\ to\ be\ printed\r\n\ @param\ x\ the\ x-position\ of\ the\ printed\ card\ in\ this\ container\r\n\ @param\ y\ the\ y-position\ of\ the\ printed\ card\ in\ this\ container\r\n
+numComments=8
