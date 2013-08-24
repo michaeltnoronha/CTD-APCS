@@ -1,9 +1,0 @@
-
-public class DrawingStars {
-	public static void printStars(int num){
-		for(int i = 1; I <= num; i++_{
-			System.out.print("*");
-		}
-	}
-
-}
